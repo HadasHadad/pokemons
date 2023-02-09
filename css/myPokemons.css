@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+  }
+  header {
+    background-color: #fff;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 60px;
+  }
+  .pokemonCards{
+    list-style: none;
+    display: inline-block;
+    
+  }
+  .pokemonCards .card{
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    width: 300px;
+    border: 2px solid #dbd8d8;
+  
+  }
+  .pokemonCards .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .pokemonCards img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .headLine{
+    background-color: black;
+    color: white;
+    text-align: center;
+   }
+   .pokemonCards h1{
+    background-color: rgb(246, 228, 130);
+   }
+   .pokemonCards h2{
+    background-color: rgb(246, 246, 219);
+   }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CatchThemAll</title>
+  <link rel="stylesheet" href="css/catch.css">
+
+
+  <script>
+    function init() {
+      picture = document.getElementById("image");
+      spaceH = window.innerHeight - picture.height;
+      spaceW = window.innerWidth - picture.width;
+
+    }
+    function move() {
+      picture.style.top = Math.random() * spaceH + "px";
+      picture.style.left = Math.random() * spaceW + "px";
+    }
+  </script>
+</head>
+
+<body onload="init()">
+  <header>
+    <a href="/index.html" target="_self">
+      <img src="/images/pokemon logo.jpeg" alt="pokemonLogo" class="logo">
+    </a>
+
+  </header>
+  <div class="headLine">
+    <h1>CATCH IT!</h1>
+  </div>
+  <img onmouseover="move()" src="/images/ghost pokemon.jpeg" alt="GhostPokemon" id="image" />
+  <a href="/catch.html" target="_self" id="restart">
+    <button>restart</button>
+  </a>
+</body>
+
+</html>

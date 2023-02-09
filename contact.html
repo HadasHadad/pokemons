@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contact me</title>
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+  <header>
+    <a href="/index.html" target="_self">
+      <img src="/images/pokemon logo.jpeg" alt="pokemonLogo" class="logo">
+    </a>
+
+  </header>
+  <div>
+    <div class="headLine">
+      <h1>contact us</h1>
+      <p> Fill up the form if you have any questions. I would be happy to tell you all I know (which is nothing) about
+        pokemons.</p>
+    </div>
+<div class="window">
+    <!-- <section class="left">
+      <img src="/images/gotta catch .jpeg" alt="gotta catch" id="catchIcon">
+    </section> -->
+    <form class="contactForm">
+      <label for="FirstName">First name: <span>*</span></label>
+      <br>
+      <input type="text" id="FirstName" class="personal first" required>
+      <br>
+      <label for="LastName">Last name: <span>*</span></label>
+      <br>
+      <input type="text" id="LastName" class="personal last" required>
+      <br>
+      <label for="Email">Email adress: <span>*</span></label>
+      <br>
+      <input type="email" id="Email" class="personal mail" required>
+      <br>
+      <label for="PhoneNumber">phone number:</label>
+      <br>
+      <input type="tel" id="PhoneNumber" class="personal phone">
+
+      <br>
+
+      <div class="contactChoice">
+        <p> how would you like me to contact you?</p>
+        <label for="phone">phone</label>
+        <input type="radio" id="phone" name="contactChoice">
+        <label for="mail">Email</label>
+        <input type="radio" id="mail" name="contactChoice">
+      </div>
+      <br>
+      <br>
+      <label for="topic">choose a subject</label>
+      <select name="topic" id="topic">
+        <option value="ghostP">ghost pokemon</option>
+        <option value="waterP">water pokemon</option>
+        <option value="sandtP">sand pokemon</option>
+        <option value="electricP">electric pokemon</option>
+      </select>
+      <br>
+      <br>
+      <label for="message">type in your message <span>*</span></label>
+      <br>
+      <input type="text" id="message" required>
+
+      <br>
+      <br>
+
+      
+      <input type="checkbox" name="ads" id="ads">
+      <label for="ads">would you like me to send more information?</label>
+      <br>
+      <br>
+      <input type="submit" value="submit">
+
+    </form>
+
+  <!--   <section class="right">
+      <img src="/images/email-icon-large-envelope.png" alt="mail icon" id="mailIcon">
+    </section> -->
+
+  </div>
+</body>
+
+</html>
